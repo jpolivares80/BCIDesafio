@@ -32,7 +32,7 @@ public class JwtVerifier {
 
   
 
-  public static void main(String[] args) {
+  /*public static void main(String[] args) {
     JwtGenerator jwtGenerator = new JwtGenerator();
     String token = jwtGenerator.generarTokenConClaims();
 
@@ -43,5 +43,5 @@ public class JwtVerifier {
 
 
     
-  }
+  }*/
 }

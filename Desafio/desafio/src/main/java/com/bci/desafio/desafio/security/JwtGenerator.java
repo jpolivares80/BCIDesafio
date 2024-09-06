@@ -46,7 +46,7 @@ public class JwtGenerator {
       .compact();
   }
 
-  public static void main(String[] args) {
+  /*public static void main(String[] args) {
     //generarToken()
     JwtGenerator jwtGenerator = new JwtGenerator();
     String token = jwtGenerator.generarToken();
@@ -56,5 +56,5 @@ public class JwtGenerator {
     JwtGenerator jwtGeneratorCC = new JwtGenerator();
     String tokenCC = jwtGeneratorCC.generarTokenConClaims();
     System.out.println("JWT generado con claims: " + tokenCC);
-  }
+  }*/
 }

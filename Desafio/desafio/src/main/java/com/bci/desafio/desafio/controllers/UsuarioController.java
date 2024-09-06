@@ -33,16 +33,7 @@ public class UsuarioController {
 
   @PostMapping("/create")
   public ResponseEntity<?> create(@RequestBody Usuario user) {
-      //TODO: process POST request
-      System.out.println("1.- Llegue al post...");
-      System.out.println("2.- Nombre: "+user.getName());
       
-      if(user.getName().equals("")){
-        ErrorResponse error = new ErrorResponse("El nombre del usuario es obligatorio.");
-        return ResponseEntity.status(HttpStatus.BAD_REQUEST)
-          .body(error);
-      }
-
       if (!usuarioService.isValidEmail(user.getEmail())){
         System.out.println("El formato del correo no es valido");
         ErrorResponse error = new ErrorResponse("El formato del correo no es valido");
