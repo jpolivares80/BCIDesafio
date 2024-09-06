@@ -49,3 +49,5 @@ Pasos para la ejecución y prueba del Servicio de Creación de Usuarios.
       Password:
     La password debe ir vacía, y después de verificar esos datos 
     se debe presionar el boton Connect.
+9.- Para acceder a Swagger a revisar los servicios, debe ingresar a la siguiente url:
+      http://localhost:8080/swagger-ui.html
