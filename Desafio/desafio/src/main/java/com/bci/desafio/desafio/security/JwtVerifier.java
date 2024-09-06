@@ -1,12 +1,12 @@
 package com.bci.desafio.desafio.security;
 
 import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.SignatureAlgorithm;
+//import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.Claims;
 
 import java.security.Key;
 
-import io.jsonwebtoken.security.Keys;
+//import io.jsonwebtoken.security.Keys;
 
 public class JwtVerifier {
 

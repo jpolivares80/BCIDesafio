@@ -22,7 +22,7 @@ import com.bci.desafio.desafio.models.TelefonoDB;
 
 
 @RestController
-@RequestMapping("api/Usuario")
+@RequestMapping("/api/Usuario")
 public class UsuarioController {
   @Autowired
   private UsuarioDBRepository usuarioRepository;
