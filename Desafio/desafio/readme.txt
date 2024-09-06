@@ -51,3 +51,6 @@ Pasos para la ejecución y prueba del Servicio de Creación de Usuarios.
     se debe presionar el boton Connect.
 9.- Para acceder a Swagger a revisar los servicios, debe ingresar a la siguiente url:
       http://localhost:8080/swagger-ui.html
+10.-  Para ejecutar las pruebas unitarias con JUnit, se debe ubicar en el directorio Desafio/desafio/
+      y ejecutar el siguiente comando:
+        mnv test
