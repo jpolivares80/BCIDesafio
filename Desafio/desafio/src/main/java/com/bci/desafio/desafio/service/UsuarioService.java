@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.bci.desafio.desafio.models.UsuarioDB;
-import com.bci.desafio.desafio.repository.UsuarioDBRepository;;
+import com.bci.desafio.desafio.repository.UsuarioDBRepository;
 
 @Service
 public class UsuarioService {
