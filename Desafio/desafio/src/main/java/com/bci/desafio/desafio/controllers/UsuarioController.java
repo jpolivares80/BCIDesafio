@@ -81,12 +81,14 @@ public class UsuarioController {
       usuarioDB.setToken(token);
 
       // Recorrer la lista de números de teléfono
+      if(user.getPhones() != null){
       for (Telefono telefono : user.getPhones()) {
         // Crear un nuevo objeto Telefono para cada número
         TelefonoDB telefonoDB = new TelefonoDB(telefono.getNumber(), telefono.getCitycode(), telefono.getContrycode());
         
         // Añadir el teléfono al usuario
         usuarioDB.addTelefono(telefonoDB);
+      }
       }
 
       usuarioRepository.save(usuarioDB);
